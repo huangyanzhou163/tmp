@@ -7,7 +7,7 @@ Team Member: Xiaowen ZHAO, Zhenwei YI, Yanzhou HUANG, Xuezheng PENG
 # Model
 Our Model Name: Vsmn
 
-Platform: tensorflow 1.8.0
+Platform: tensorflow-gpu 1.8.0
 
 Performance on the validation set: hits@1 = 0.729
 

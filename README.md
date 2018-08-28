@@ -9,7 +9,7 @@ Our Model Name: Vsmn
 
 Platform: tensorflow-gpu 1.8.0
 
-Performance on the validation set: hits@1 = 0.729
+Performance on the validation set: hits@1 = 0.748
 
 Training Data: self-orignal + self-rewised
 

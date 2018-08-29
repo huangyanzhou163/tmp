@@ -18,7 +18,7 @@ Initialized Word Embedding: glove.840B.300d.zip (https://nlp.stanford.edu/projec
 Evaluation script: projects/convai2/Vsmn/eval_hits.py
 
 # How to Run
-Once you have downloaded Vsmn.zip, prepare4eval.sh and data.zip, you should copy these three files in to your ParlAI directory like this:
+Once you have downloaded Vsmn.zip, prepare4eval.sh, data.tar.gz0, data.tar.gz1 and data.tar.gz2, you should copy these three files in to your ParlAI directory like this:
 
 ParlAI
 
@@ -26,7 +26,9 @@ ParlAI
 
 ----------prepare4eval.sh
 
-----------data.zip
+----------data.tar.gz0
+----------data.tar.gz1
+----------data.tar.gz2
 
 bash prepare4eval.sh
 

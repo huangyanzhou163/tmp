@@ -11,7 +11,7 @@ Platform: tensorflow-gpu 1.8.0
 
 Performance on the validation set: hits@1 = 0.8296
 
-Training Data: self-orignal + self-rewised + train.new.v2[our augmented datasets]
+Training Data: self-orignal + self-rewised + validation set + train.new.v2[our augmented datasets]
 
 Initialized Word Embedding: glove.840B.300d.zip (https://nlp.stanford.edu/projects/glove/)
 

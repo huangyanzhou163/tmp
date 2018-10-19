@@ -18,7 +18,7 @@ Initialized Word Embedding: glove.840B.300d.zip (https://nlp.stanford.edu/projec
 Evaluation script: projects/convai2/Vsmn/eval_hits.py
 
 # How to Run
-Once you have downloaded Vsmn.zip, prepare4eval.sh, data.tar.gz0, data.tar.gz1 and data.tar.gz2, you should copy these three files in to your ParlAI directory like this:
+Once you have downloaded Vsmn.zip, prepare4eval.sh, data.tar.gz0, data.tar.gz1 and data.tar.gz2, answer_sentence.pkl, candidates.ann and train.new.v2, you should copy these files in to your ParlAI directory like this:
 
 ParlAI
 
@@ -32,9 +32,21 @@ ParlAI
 
 ----------data.tar.gz2
 
+----------answer_sentence.pkl
+
+----------candidates.ann
+
+----------train.new.v2
+
+pip install annoy
+
 bash prepare4eval.sh
 
 Please go to the directory “projects/convai2/Vsmn” to do the evaluation.
 
-python eval_hits.py
+if you do the first round evaluation, then run the following script:
+python eval_hits.py   
+
+if you do the second round evaluation, then run the following script:
+python eval_hits.py   
 

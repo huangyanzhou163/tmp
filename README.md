@@ -45,8 +45,10 @@ bash prepare4eval.sh
 Please go to the directory “projects/convai2/Vsmn” to do the evaluation.
 
 if you do the first round evaluation, then run the following script:
+
 python eval_hits.py   
 
 if you do the second round evaluation, then run the following script:
-python eval_hits.py   
+
+python interactive.py 
 

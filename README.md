@@ -38,7 +38,9 @@ ParlAI
 
 ----------train.new.v2
 
-pip install annoy
+Python Version: Python 3.6.3 :: Anaconda custom (64-bit)
+
+install annoy package: pip install annoy
 
 bash prepare4eval.sh
 

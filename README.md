@@ -40,7 +40,9 @@ ParlAI
 
 Python Version: Python 3.6.3 :: Anaconda custom (64-bit)
 
-install annoy package: pip install annoy
+download ParlAI: git clone https://github.com/facebookresearch/ParlAI.git
+
+install annoy package: pip install annoy==1.13.0
 
 bash prepare4eval.sh
 
